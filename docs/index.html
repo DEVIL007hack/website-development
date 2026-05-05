@@ -1,22 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lingudu Devi Prasad | Portfolio</title>
   <link rel="stylesheet" href="style.css">
-
+  <script src="script.js" defer></script>
 </head>
 <body>
-  <h1>LINGUDU DEVI PRASAD</h1>
-  <p>I am learning website development.</p>
+  <header class="topbar">
+    <a class="brand" href="#home">Lingudu Devi Prasad</a>
+    <nav class="nav-links" aria-label="Portfolio navigation">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>Portfolio Website</li>
-    <li>Landing Page</li>
-    <li>JavaScript Practice</li>
-  </ul>
+  <main id="home">
+    <section class="hero section-reveal">
+      <div class="hero-panel">
+        <div class="hero-copy">
+          <p class="eyebrow">Coder / Web Developer / AI-ML Learner</p>
+          <h1><span>Hi, I'm</span> Lingudu Devi Prasad</h1>
+          <p class="hero-text">
+            A coder from National Institute of Technology Durgapur building focused web experiences,
+            DSA practice projects, and AI/ML experiments.
+          </p>
+          <div class="hero-actions">
+            <a class="btn primary" href="mailto:dp750850@gmail.com">Contact Me</a>
+            <a class="btn ghost" href="#projects">View Projects</a>
+          </div>
+        </div>
 
-  <h2>Contact</h2>
-  <p>Email: dp750850@gmail.com/<p>
+        <div class="hero-visual" aria-label="Stylized developer portrait">
+          <img src="avatar.svg" alt="Stylized avatar of Lingudu Devi Prasad">
+        </div>
+      </div>
+
+      <div class="hero-title">
+        <span>Portfolio</span>
+        <span>Website</span>
+      </div>
+    </section>
+
+    <section class="content-section section-reveal" id="about">
+      <div class="section-heading">
+        <p class="eyebrow">About Me</p>
+        <h2>Coder With A Builder Mindset</h2>
+      </div>
+      <div class="about-grid">
+        <p>
+          I am Lingudu Devi Prasad, a coder learning and building across web development,
+          data structures, algorithms, and AI/ML. I like turning ideas into working projects
+          and improving them step by step.
+        </p>
+        <div class="stat-card">
+          <span>Education</span>
+          <strong>National Institute of Technology Durgapur</strong>
+        </div>
+      </div>
+    </section>
+
+    <section class="content-section section-reveal" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2>What I Work On</h2>
+      </div>
+      <div class="card-grid three">
+        <article class="skill-card">
+          <span class="card-number">01</span>
+          <h3>DSA</h3>
+          <p>Problem solving, algorithms, and structured coding practice.</p>
+        </article>
+        <article class="skill-card">
+          <span class="card-number">02</span>
+          <h3>Web Developing</h3>
+          <p>Responsive pages, clean layouts, HTML, CSS, and JavaScript.</p>
+        </article>
+        <article class="skill-card">
+          <span class="card-number">03</span>
+          <h3>AI/ML</h3>
+          <p>Learning machine intelligence and building practical experiments.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="content-section section-reveal" id="projects">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2>Selected Work</h2>
+      </div>
+      <div class="card-grid two">
+        <article class="project-card">
+          <div class="project-topline">
+            <span>AI/ML</span>
+            <span>01</span>
+          </div>
+          <h3>Sign Language</h3>
+          <p>
+            A project idea focused on recognizing sign language and making communication
+            more accessible through technology.
+          </p>
+        </article>
+        <article class="project-card">
+          <div class="project-topline">
+            <span>Logic</span>
+            <span>02</span>
+          </div>
+          <h3>ATM Machine</h3>
+          <p>
+            A coding practice project that models ATM operations like balance checks,
+            deposits, withdrawals, and user flow.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contact-section section-reveal" id="contact">
+      <p class="eyebrow">Contact</p>
+      <h2>Let's Build Something Sharp.</h2>
+      <a class="email-link" href="mailto:dp750850@gmail.com">dp750850@gmail.com</a>
+    </section>
+  </main>
 </body>
 </html>
